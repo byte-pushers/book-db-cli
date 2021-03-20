@@ -1,0 +1,44 @@
+{
+  "name": "book-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/main.ts",
+  "bin": {
+    "books": "./lib/main.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch 'src/**/*.ts' --exec ts-node src/main.ts",
+    "create": "npm run build && npm run test",
+    "build": "tsc -v .",
+    "local": "sudo npm i -g && books",
+    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^7.1.0",
+    "figlet": "^1.5.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byte-pushers/book-db-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/byte-pushers/book-db-cli/issues"
+  },
+  "homepage": "https://github.com/byte-pushers/book-db-cli#readme"
+}
