@@ -5,4 +5,5 @@ npm start (launches)
 npm build (to build)
 
 Resources for setup:
-https://itnext.io/how-to-create-your-own-typescript-cli-with-node-js-1faf7095ef89
+ - https://itnext.io/how-to-create-your-own-typescript-cli-with-node-js-1faf7095ef89
+ - https://github.com/tj/commander.js/blob/master/Readme.md#declaring-program-variable

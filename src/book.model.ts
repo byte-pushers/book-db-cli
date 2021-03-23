@@ -1,6 +1,6 @@
-import {BookInterfaceModel} from "./book-interface.model";
+import {Book} from "./book";
 
-export class BookInterface implements BookInterfaceModel {
+export class BookModel implements Book {
 
     public _id: number;
     public _title: string;
@@ -14,7 +14,6 @@ export class BookInterface implements BookInterfaceModel {
         description: null
     };
     constructor(bookConfig: any) {
-        super(bookConfig);
         this._id =  (bookConfig !== null && bookConfig !== undefined) ? bookConfig.id : undefined;
         this._title =  (bookConfig !== null && bookConfig !== undefined) ? bookConfig.title : undefined;
         this._author = (bookConfig !== null && bookConfig !== undefined) ? bookConfig.author: undefined;

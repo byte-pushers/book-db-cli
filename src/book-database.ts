@@ -1,10 +1,10 @@
-import {BookInterface} from "./book-interface";
+import {BookModel} from "./book.model";
 
 export class bookDatabase {
-    public books: BookInterface [] = [];
+    public books: BookModel [] = [];
 
     constructor() {
-        generateCurrentBooks();
+        this.generateCurrentBooks();
     }
 
     public createBook() {
@@ -17,18 +17,20 @@ export class bookDatabase {
         return newBook;
     }
 
-    public retrieveBook(selectedBookId: number): BookInterface {
-let selectedBook: BookInterface = null;
-this.books.forEach((book) => {
-    if (book.id === selectedBookId) {
-        selectedBook = book;
-    }
+    public retrieveBook(selectedBookId: number): BookModel {
+        let selectedBook: BookModel = new BookModel(null);
+
+        this.books.forEach((book) => {
+            if (book.id === selectedBookId) {
+                selectedBook = book;
+            }
         });
-return selectedBook
+
+        return selectedBook;
     }
 
     private generateCurrentBooks() {
-// TODO Populate Books here
+        // TODO Populate Books here
         // TODO create an array which will contain all the books as objects
     }
 }
