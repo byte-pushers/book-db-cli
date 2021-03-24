@@ -1,14 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "lib": ["es6", "es2015", "dom"],
+
+    "allowSyntheticDefaultImports": true,
     "declaration": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "importHelpers": false,
+    "lib": ["es6", "es2015", "dom"],
     "outDir": "lib",
     "rootDir": "src",
     "strict": true,
+    "target": "es5",
     "types": ["node"],
-    "esModuleInterop": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
   }
 }

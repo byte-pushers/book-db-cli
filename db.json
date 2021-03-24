@@ -1,0 +1,50 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Hobbit",
+      "author": null,
+      "description": null
+    },
+    {
+      "id": 2,
+      "title": "Lord of the Rings",
+      "author": null,
+      "description": null
+    },
+    {
+      "id": 3,
+      "title": "Snow White and the Seven Dwarfs",
+      "author": null,
+      "description": null
+    },
+    {
+      "id": 4,
+      "title": "Moby Dick",
+      "author": null,
+      "description": null
+    },
+    {
+      "id": 5,
+      "title": "Snow Crash",
+      "author": null,
+      "description": null
+    },
+    {
+      "id": 6,
+      "author": "test author",
+      "description": "test description",
+      "title": "test title"
+    },
+    {
+      "id": 7,
+      "author": "test author",
+      "description": "test description",
+      "title": "test title"
+    },
+    {
+      "id": 8
+    }
+  ],
+  "book-id-sequence": 8
+}
