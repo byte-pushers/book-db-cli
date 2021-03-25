@@ -1,11 +1,5 @@
-export interface BookInterfaceModel {
-    id: number,
-    title: string,
-    author: string,
-    description: string
-
+export interface Book {
     getId(): number;
-    setId(id: number): void;
 
     getTitle(): string;
     setTitle(title: string): void;

@@ -1,8 +1,14 @@
 # book-db-cli
 
-to start project simply use:
-npm start (launches)
-npm build (to build)
+## Install
 
-Resources for setup:
-https://itnext.io/how-to-create-your-own-typescript-cli-with-node-js-1faf7095ef89
+Run `npm install` to install the project.
+
+## Build
+Run the follwoing:
+- `npm run build` to build the project. The build artifacts will be stored in the `lib/` directory.
+- `npm run refresh` to refresh source code. 
+- `npm link` to create symlink to command: `book-cli`.
+## Run
+
+Run `book-cli -h` for help. This will show how to use the book-cli.
