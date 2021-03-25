@@ -38,13 +38,28 @@
     },
     {
       "id": 7,
-      "author": "test author",
+      "author": "test author 2",
       "description": "test description",
-      "title": "test title"
+      "title": "test title 2"
     },
     {
-      "id": 8
+      "id": 8,
+      "author": "test author 3",
+      "description": "test description 3",
+      "title": "test title 3"
+    },
+    {
+      "id": 9,
+      "author": "",
+      "description": "",
+      "title": ""
+    },
+    {
+      "id": 10,
+      "author": "James Baldwin",
+      "description": "Just a nice beginner book.",
+      "title": "True Beginnings"
     }
   ],
-  "book-id-sequence": 8
+  "book-id-sequence": 10
 }
